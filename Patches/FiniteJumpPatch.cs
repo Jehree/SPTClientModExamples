@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using EFT;
 using System.Runtime.CompilerServices;
 
+//this example patch will limit the number of jumps you can do to 3, and log whether or not your jump was successful
+
 namespace YourModName.Patches
 {
     internal class FiniteJumpPatch : ModulePatch //we must inherit ModulePatch for our patch to work.
