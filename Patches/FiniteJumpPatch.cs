@@ -16,6 +16,7 @@ namespace YourModName.Patches
         protected override MethodBase GetTargetMethod()
         {
             //methods are patched by targeting both their class name and the name of the method itself.
+            //the example in this patch is the Jump() method in the Player class
             return AccessTools.Method(typeof(Player), nameof(Player.Jump));
         }
 
@@ -34,14 +35,13 @@ namespace YourModName.Patches
                 int remainingJumps = maxJumps - completedJumps;
 
                 //here we are using that LogSource variable we set up in the Plugin.cs file.
-                Plugin.LogSource.LogWarning($"You jumped! You have {remainingJumps} left!"); //LogWarning() will log with a yellow tint.
+                Plugin.LogSource.LogWarning($"You jumped! You have {remainingJumps} left!");
 
-                return true; //here we return true to run the original code and jump!
+                return true; //we return true to run the original code and jump!
             } else {
-                //this isn't actually an error, LogError() will just log with a red color which is easier to spot in the BepInEx log.
                 Plugin.LogSource.LogError("You have no jumps left!");
 
-                return false; //here we are out of jumps, so we return false, preventing the original code, and thus, the jump.
+                return false; //we are out of jumps, so we return false, preventing the original code, and thus, the jump.
             }
         }
 
@@ -51,6 +51,6 @@ namespace YourModName.Patches
             //code here will run AFTER the original code is executed.
         }
 
-      //don't forget to add FiniteJumpPatch().Enable(); to the Awake() method of your Plugin.cs script.
+      //don't forget to add FiniteJumpPatch().Enable(); to the Awake() method of your Plugin.cs script to enable this patch.
     }
 }
