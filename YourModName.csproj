@@ -56,7 +56,6 @@
 
 
   <!--BEGINNING OF PASTED REFERENCES-->
-      
   <ItemGroup>
     <Reference Include="PhysicsModule">
       <HintPath>..\..\EscapeFromTarkov_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
@@ -129,7 +128,6 @@
       <HintPath>..\..\EscapeFromTarkov_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  
   <!--END OF PASTED REFERENCES-->
 
 </Project>
