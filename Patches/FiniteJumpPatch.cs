@@ -53,6 +53,6 @@ namespace YourModName.Patches
             //code here will run AFTER the original code is executed.
         }
 
-      //don't forget to add FiniteJumpPatch().Enable(); to the Awake() method of your Plugin.cs script to enable this patch.
+      //don't forget to add 'new FiniteJumpPatch().Enable();' to the Awake() method of your Plugin.cs script to enable this patch.
     }
 }
