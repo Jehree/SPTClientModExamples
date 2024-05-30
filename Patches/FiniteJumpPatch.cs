@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 using EFT;
 using System.Runtime.CompilerServices;
 
-namespace YourModName.Patches {
+namespace YourModName.Patches
+{
     internal class FiniteJumpPatch : ModulePatch //we must inherit ModulePatch for our patch to work.
     {
         protected override MethodBase GetTargetMethod()
