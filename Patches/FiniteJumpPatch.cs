@@ -47,7 +47,7 @@ namespace YourModName.Patches
             }
         }
 
-        [PatchPrefix]
+        [PatchPostfix]
         static void Postfix()
         {
             //code here will run AFTER the original code is executed.
