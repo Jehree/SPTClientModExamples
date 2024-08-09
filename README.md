@@ -1,9 +1,22 @@
-SPT-Client-Mod-Boilerplate
+SPTClientModExamples
 
-Use this as a starting point for your own client mods!
+Use this as a starting point to create your own client mods!
 
-**DO NOT OVERWRITE YOUR .csproj FILE WITH THE ONE IN THIS REPO**
 
-You will need to paste in your refs yourself, there are other bits of information in your .csproj file that you should not overwrite. The one in this repo is only there to visually demonstrate where to put refs, see the comments near the bottom of that file.
 
-If you are pasting code into your own project from the Plugin.cs file, or any file in the Patches folder, **make sure you update "YourModName" to your own mod name, and be sure to replace YourUniqueModGUID with a unique plugin GUID**. I recommend something like: YourDisplayName.YourModName.
+If you would like to rename the client mods project to use as a starting point for your own mod:
+
+1. Use something like GitBash to clone the repo into a folder on your computer
+2. Delete the **.git** folder
+3. Rename the following from _SPTClientModExamples_ to your new mod name:
+    * Folder the project is in
+    * **.csproj** file
+    * **.sln** file
+4. Open the **.sln** file with a text editor, CTRL+F for _SPTClientModExamples_ and replace it with your new mod name
+5. Open the **.csproj** file with a text editor, CTRL+F for _SPTClientModExamples_ and replace it with your new mod name
+6. Open your solution by double clicking your **.sln** file, double click **Plugin.cs**
+7. Press CTRL + Shift + F, click Replace in Files
+    * make sure **Look in** is set to **All open documents**
+    * in Find field, enter: _SPTClientModExamples_
+    * in Replace field, enter your new mod name
+    * click Replace All in bottom right, click yes if prompted
