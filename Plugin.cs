@@ -23,7 +23,7 @@ namespace SPTClientModExamples
             LogSource.LogInfo("plugin loaded!");
 
             // uncomment line(s) below to enable desired example patch, then press F6 to build the project:
-            //new SimplePatch().Enable();
+            // new SimplePatch().Enable();
         }
     }
 }
