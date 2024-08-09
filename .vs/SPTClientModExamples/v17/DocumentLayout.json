@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\SP Tarkov\\SPT395_DEV\\Dev\\SPTClientModExamples\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|SPTClientModExamples.csproj|C:\\SP Tarkov\\SPT395_DEV\\Dev\\SPTClientModExamples\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|SPTClientModExamples.csproj|c:\\sp tarkov\\spt395_dev\\dev\\sptclientmodexamples\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|SPTClientModExamples.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|SPTClientModExamples.csproj|c:\\sp tarkov\\spt395_dev\\dev\\sptclientmodexamples\\examplepatches\\simplepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|SPTClientModExamples.csproj|C:\\SP Tarkov\\SPT395_DEV\\Dev\\SPTClientModExamples\\examplepatches\\simplepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|SPTClientModExamples.csproj|solutionrelative:examplepatches\\simplepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,7 +31,7 @@
               "RelativeDocumentMoniker": "ExamplePatches\\SimplePatch.cs",
               "ToolTip": "C:\\SP Tarkov\\SPT395_DEV\\Dev\\SPTClientModExamples\\ExamplePatches\\SimplePatch.cs",
               "RelativeToolTip": "ExamplePatches\\SimplePatch.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T02:31:01.736Z",
               "EditorCaption": ""
@@ -55,7 +55,7 @@
               "RelativeDocumentMoniker": "Plugin.cs",
               "ToolTip": "C:\\SP Tarkov\\SPT395_DEV\\Dev\\SPTClientModExamples\\Plugin.cs",
               "RelativeToolTip": "Plugin.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBgAAABGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T02:07:02.401Z",
               "EditorCaption": ""
