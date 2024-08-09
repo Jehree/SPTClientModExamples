@@ -4,7 +4,7 @@ Use this as a starting point to create your own client mods!
 
 
 
-If you would like to rename the client mods project to use as a starting point for your own mod:
+If you would like to rename the SPTClientModExamples project to use as a starting point for your own mod:
 
 1. Use something like GitBash to clone the repo into a folder on your computer
 2. Delete the **.git** folder
