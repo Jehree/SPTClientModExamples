@@ -16,7 +16,7 @@ If you would like to rename the SPTClientModExamples project to use as a startin
 5. Open the **.csproj** file with a text editor, CTRL+F for _SPTClientModExamples_ and replace it with your new mod name
 6. Open your solution by double clicking your **.sln** file, double click **Plugin.cs**
 7. Press CTRL + Shift + F, click Replace in Files
-    * make sure **Look in** is set to **All open documents**
+    * make sure **Look in** is set to **Entire solution**
     * in Find field, enter: _SPTClientModExamples_
     * in Replace field, enter your new mod name
     * click Replace All in bottom right, click yes if prompted
