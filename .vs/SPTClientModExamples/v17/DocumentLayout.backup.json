@@ -7,19 +7,15 @@
       "RelativeMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|SPTClientModExamples.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SP Tarkov\\SPT4.0.X\\Dev\\SPTClientModExamples\\obj\\Debug\\netstandard2.1\\SPTClientModExamples.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\netstandard2.1\\SPTClientModExamples.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SPTClientModExamples||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|SPTClientModExamples.csproj|c:\\sp tarkov\\spt4.0.x\\dev\\sptclientmodexamples\\examplepatches\\simplepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|SPTClientModExamples.csproj|solutionrelative:examplepatches\\simplepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\SP Tarkov\\SPT4.0.X\\Dev\\SPTClientModExamples\\obj\\Debug\\netstandard2.1\\SPTClientModExamples.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\netstandard2.1\\SPTClientModExamples.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|SPTClientModExamples.csproj|c:\\sp tarkov\\spt4.0.x\\dev\\sptclientmodexamples\\sptclientmodexamples.csproj||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|1e78f8db-6c07-4d61-a18f-7514010abd56",
-      "RelativeMoniker": "D:0:0:{9076ADE2-F4EE-4B5D-B9A6-29A054CF0A7E}|SPTClientModExamples.csproj|solutionrelative:sptclientmodexamples.csproj||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|1e78f8db-6c07-4d61-a18f-7514010abd56"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +29,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "SPTClientModExamples.AssemblyInfo.cs",
               "DocumentMoniker": "C:\\SP Tarkov\\SPT4.0.X\\Dev\\SPTClientModExamples\\obj\\Debug\\netstandard2.1\\SPTClientModExamples.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\netstandard2.1\\SPTClientModExamples.AssemblyInfo.cs",
@@ -50,28 +46,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SimplePatch.cs",
               "DocumentMoniker": "C:\\SP Tarkov\\SPT4.0.X\\Dev\\SPTClientModExamples\\ExamplePatches\\SimplePatch.cs",
               "RelativeDocumentMoniker": "ExamplePatches\\SimplePatch.cs",
               "ToolTip": "C:\\SP Tarkov\\SPT4.0.X\\Dev\\SPTClientModExamples\\ExamplePatches\\SimplePatch.cs",
               "RelativeToolTip": "ExamplePatches\\SimplePatch.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T02:31:01.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T02:31:01.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SPTClientModExamples",
               "DocumentMoniker": "C:\\SP Tarkov\\SPT4.0.X\\Dev\\SPTClientModExamples\\SPTClientModExamples.csproj",
               "RelativeDocumentMoniker": "SPTClientModExamples.csproj",
               "ToolTip": "C:\\SP Tarkov\\SPT4.0.X\\Dev\\SPTClientModExamples\\SPTClientModExamples.csproj",
               "RelativeToolTip": "SPTClientModExamples.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-09T02:20:22.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T02:20:22.456Z"
             },
             {
               "$type": "Document",
@@ -79,9 +73,9 @@
               "Title": "Plugin.cs",
               "DocumentMoniker": "C:\\SP Tarkov\\SPT4.0.X\\Dev\\SPTClientModExamples\\Plugin.cs",
               "RelativeDocumentMoniker": "Plugin.cs",
-              "ToolTip": "C:\\SP Tarkov\\SPT4.0.X\\Dev\\SPTClientModExamples\\Plugin.cs",
-              "RelativeToolTip": "Plugin.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\SP Tarkov\\SPT4.0.X\\Dev\\SPTClientModExamples\\Plugin.cs*",
+              "RelativeToolTip": "Plugin.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T02:07:02.401Z",
               "EditorCaption": ""

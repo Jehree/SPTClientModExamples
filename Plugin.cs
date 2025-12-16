@@ -1,11 +1,5 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SPTClientModExamples.ExamplePatches;
 
 namespace SPTClientModExamples
 {
@@ -18,11 +12,12 @@ namespace SPTClientModExamples
         // BaseUnityPlugin inherits MonoBehaviour, so you can use base unity functions like Awake() and Update()
         private void Awake()
         {
-            // save the Logger to variable so we can use it elsewhere in the project
+            // save the Logger to public static field so we can use it elsewhere in the project
             LogSource = Logger;
             LogSource.LogInfo("plugin loaded!");
 
-            // uncomment line(s) below to enable desired example patch, then press F6 to build the project:
+            // uncomment line(s) below to enable desired example patch, then press F6 to build the project
+            // if this solution is properly placed in a YourSPTInstall/Development folder, the compiled plugin will automatically be copied into YourSPTInstall/BepInEx/plugins
             // new SimplePatch().Enable();
         }
     }

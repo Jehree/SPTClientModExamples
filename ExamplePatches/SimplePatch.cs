@@ -1,12 +1,7 @@
 ﻿using EFT;
 using HarmonyLib;
 using SPT.Reflection.Patching;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SPTClientModExamples.ExamplePatches
 {
@@ -19,8 +14,8 @@ namespace SPTClientModExamples.ExamplePatches
             return AccessTools.Method(typeof(Player), nameof(Player.Jump));
         }
 
-        public static int maxJumps = 3;
-        public static int completedJumps = 0;
+        public static int MaxJumps = 3;
+        public static int CompletedJumps = 0;
 
         [PatchPrefix]
         static bool Prefix()
@@ -29,10 +24,10 @@ namespace SPTClientModExamples.ExamplePatches
             // if 'true' is returned, the original code will still run.
             // if 'false' is returned, the original code will be skipped.
 
-            if (completedJumps < maxJumps)
+            if (CompletedJumps < MaxJumps)
             {
-                completedJumps++;
-                int remainingJumps = maxJumps - completedJumps;
+                CompletedJumps++;
+                int remainingJumps = MaxJumps - CompletedJumps;
 
                 // we are using that LogSource variable we set up in the Plugin.cs file.
                 Plugin.LogSource.LogWarning($"You jumped! You have {remainingJumps} left!");
