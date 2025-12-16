@@ -1,13 +1,10 @@
 SPTClientModExamples
 
-Use this as a starting point to create your own client mods!
+Use this template to create your own client mods!
 
-
-
-If you would like to rename the SPTClientModExamples project to use as a starting point for your own mod:
-
-1. Use something like GitBash to clone the repo into a folder on your computer (https://git-scm.com/downloads) or download it manually with **Code > Download ZIP**
-2. Delete the **.git** folder
+1. Click the green **Use this template** > **Create a new repository** button at the top right of this page
+2. Use something like GitBash to clone your new repo into a folder on your computer (https://git-scm.com/downloads) or download it manually with **Code > Download ZIP**
+   * Make sure you are cloning **YOUR** new repo, not the example repo itself
 3. Rename the following from _SPTClientModExamples_ to your new mod name:
     * Folder the project is in
     * **.csproj** file
